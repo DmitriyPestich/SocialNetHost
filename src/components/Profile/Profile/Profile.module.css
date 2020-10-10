@@ -1,20 +1,11 @@
-.main_content{
-    grid-area: content;
-    background: azure;
-    min-height: 100%;
-}
-
 .main_content .bg_content{
     height: 200px;
     overflow: hidden;
 }
 
-.main_content .bg_cotent img{
+.main_content .bg_content img{
     height: auto;
     width: 100%;
     background-size: cover;
     margin-top: -150px;
-}
-.item{
-    color: #000;
 }
