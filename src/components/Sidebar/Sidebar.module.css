@@ -1,17 +1,7 @@
-.nav{
+.sidebar{
     grid-area: nav;
     background-color: #1e3640;
     min-height: 100%;
     padding: 15px;
     box-sizing: border-box;
-}
-
-.item a{
-    color: white;
-    padding: 5px 0;
-    text-decoration: none;
-}
-
-.item a.active{
-    color: gold;
 }

@@ -1,0 +1,23 @@
+.friends_container .title{
+    margin: 0;
+    margin-bottom: 15px;
+    color: white;
+}
+.friends_item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.friends_item .friend{
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.friends_item .friend img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.friends_item .friend h5{
+    margin: 0;
+    color: white;
+}

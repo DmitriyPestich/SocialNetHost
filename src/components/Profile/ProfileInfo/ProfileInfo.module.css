@@ -1,11 +1,16 @@
-.main_content .bg_content{
+.bg_content{
     height: 200px;
     overflow: hidden;
+    margin-bottom: 15px;
 }
 
-.main_content .bg_content img{
+.bg_content img{
     height: auto;
     width: 100%;
     background-size: cover;
     margin-top: -150px;
+}
+
+.description_block{
+    padding: 0 15px;
 }

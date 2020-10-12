@@ -1,0 +1,74 @@
+.dialogues{
+    display: flex;
+    padding: 15px;
+}
+.dialogues_item{
+    width: 25%;
+
+    border-right: 1px solid;
+}
+.dialogues_item .dialog{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.dialogues_item .dialog a{
+    color: black;
+    text-decoration: none;
+}
+.dialogues_item .dialog a:hover{
+    color: #4f4c5b ;
+    text-decoration: none;
+}
+.dialogues_item .dialog a.active{
+    color: white;
+}
+.dialogues_item .dialog .avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+
+
+.messages{
+    width: 75%;
+    padding-left: 15px;
+}
+.messages .message:nth-child(odd) {
+    text-align: left;
+}
+.messages .message:nth-child(even){
+    text-align: right;
+}
+.messages .message:nth-child(odd) p {
+    text-align: left;
+    background: #353131;
+    color: #fff;
+    border-radius: 0px 15px 15px 15px;
+    -moz-border-radius: 0px 15px 15px 15px;
+    -webkit-border-radius: 0px 15px 15px 15px;
+    border: 0px solid #000000;
+    max-width: 300px;
+    height: auto;
+    word-wrap: normal;
+}
+.messages .message:nth-child(even) p{
+    text-align: right;
+    background: #44a9e6;
+    color: #090808;
+    border-radius: 15px 0px 15px 15px;
+    -moz-border-radius: 15px 0px 15px 15px;
+    -webkit-border-radius: 15px 0px 15px 15px;
+    border: 0px solid #000000;
+    max-width: 300px;
+    height: auto;
+    word-wrap: normal;
+}
+.messages .message p {
+    padding: 5px 10px;
+    margin: 0;
+    display: inline-block;
+}
+
