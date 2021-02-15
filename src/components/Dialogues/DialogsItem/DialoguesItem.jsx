@@ -13,5 +13,4 @@ function DialoguesItem(props) {
     );
 }
 
-
 export default DialoguesItem;

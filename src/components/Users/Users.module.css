@@ -1,0 +1,41 @@
+.users_container{
+
+}
+.user{
+
+}
+.location{
+
+}
+
+.user img {
+    width: 100px;
+    height: auto;
+}
+
+.navigation {
+    margin: 10px 0;
+    display: flex;
+}
+
+.selectedPage{
+    font-weight: bold;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+.page:hover {
+    background: #bfbfbf;
+    transition: all 300ms ease-in-out;
+}
+

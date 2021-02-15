@@ -1,9 +1,14 @@
 import React from 'react';
-import { render } from '@testing-library/react';
-import App from './App';
+import SocNetApp from './App';
+import ReactDOM from "react-dom";
+import {act} from "@testing-library/react";
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders without crashing', () => {
+  const div = document.createElement('div');
+  act(() => {
+    ReactDOM.render(<SocNetApp />, div);
+  });
+  act(() => {
+    ReactDOM.unmountComponentAtNode(div)
+  });
 });

@@ -1,16 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
-import state from "./redux/state"
+import ReactDOM from "react-dom";
+import React from "react";
+import SocNetApp from "./App";
+import "./assets/fontawesome/index"
+import store from "./redux/redux-store";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App state={state}/>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+setInterval(() => {store.dispatch({type: "FAKE"})},1000);
+/*import {Provider} from "./storeContext";*/
+
+ReactDOM.render(<SocNetApp />, document.getElementById('root'));
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
